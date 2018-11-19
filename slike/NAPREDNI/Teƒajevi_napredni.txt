@@ -1,0 +1,15 @@
+Opis:
+Ako veæ dobro znate osnove, a ne znate kako biste ih primjenili ili vam fali kreativnosti ovo je pravi teèaj za vas! U ovom teèaju æemo nauèiti izradu novih složenijih elemenata kljuènih kod izrade web igara.
+
+Ishodi:
+Nauèiti æete kompleksnije korištenje 2D polja
+Nauèiti æete izraditi Inventory sustav
+Nauèiti æete dodati trèanje vašem liku
+Nauèiti æete dodati skakanje vašem liku
+Nauèiti æete dodati dodatne opcije vašem liku
+Nauèiti æete dodati interakciju izmeðu likova
+
+Certifikat:
+Da bi uspiješno završili teèaj morate imati rezultat veæi od 80%. Kod uspiješnog završetka teèaja dobiti æete certifikat "Consola Diploma" kao dokaz da ste završili naš teèaj. 
+
+

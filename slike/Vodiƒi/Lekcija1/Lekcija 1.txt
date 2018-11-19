@@ -1,0 +1,24 @@
+Slika 1:
+
+Prvo æemo deklarirati i inicijalizirati varijable:
+KEY - gumbovi za upravljanje zmijom/igrom
+DIR - kretanje zmije
+stats - nova statistika
+canvas - povezivanje s html canvasom
+width - širina
+height - visina
+ctx - 2d prostor
+nx - broj stupaca
+ny - broj broj redaka
+playing - da li je igra pokrenuta ili ne
+dstep - brzina zmije
+   
+dt - koliko je sekunda proslo prije zadnjeg update-a   
+
+
+Slika 2:
+Sljedeæi korak je napisati funkciju za crtanje i bojanje zmije, canvasa i hrane.
+Koristiti æemo dodatnu funkciju za bojanje zmije u razlièitim nijansama zelene boje.
+
+Slika 3:
+Napisati æemo funkcije za pokretanje igre u kojoj se vrši reset na poèetne stavke i za završetak igre.

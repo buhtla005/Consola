@@ -1,0 +1,16 @@
+Opis:
+Ovaj teèaj je namjenjen veæ iskusnim game developerima s ciljem da se certificiraju ili prošire znanja kao profesionalni web game developeri sa nekim složenijim metodama i elementima.
+
+
+Ishodi:
+Nauèiti æete izraditi složeni Battle sustav
+Nauèiti æete integrirati 2D i 3D elemente u vašu scenu
+Nauèiti æete integrirati složene animacije i pokrete vašeg lika
+Nauèiti æete stvoriti složeni UI
+Nauèiti æete dodati složene Physics
+Nauèiti æete izraditi složene skripte
+
+Certifikat:
+Da bi uspiješno završili teèaj morate imati rezultat veæi od 90%. Kod uspiješnog završetka teèaja dobiti æete certifikat "Consola Diploma" kao dokaz da ste završili naš teèaj. 
+
+

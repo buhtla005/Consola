@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="slike/POČETNI/Ikone/numbering_icon_zel.png"/>
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/carousel_style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+
+
+<title>Consola</title>
+</head>
+
+<body>
+
+<!-- NAVIGACIJA -->
+
+
+<nav class="navbar navbar-expand-md sticky-top">
+<div class="container-fluid">
+    <a class="navbar-brand" href="index.html"></a>
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">POČETNA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tecajevi.html" >TEČAJEVI</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link active" href="vodici.html">VODIČI<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="igra.html">IGRA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">KONTAKT</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="kosarica.html"><img src="slike/kosarica.png" alt="kosarica"></a>
+            </li>
+            <li class="nav-item desno-nav active">
+                <a class="nav-link small active" href="#">HR</a>
+            </li>
+            <li class="nav-item desno-nav">
+                <a class="nav-link small" href="#">EN</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</nav>
+
+
+<!-- BACKGROUND video -->
+<div class="videoContainer embed-responsive embed-responsive-16by9">
+    <iframe class="videoContainer__video embed-responsive-item" width="1920" height="1080" src="https://www.youtube.com/embed/M7waLUNfexc?vq=hd1080&fs=0&loop=1&rel=0&showinfo=0&disablekb=1" frameborder="0"></iframe>
+</div>
+
+<div class="container" id="svi-tecajevi">
+<div class="row padding oba-stupca">
+		<div class="col-sm-12 col-md-12 col-lg-6">
+		 <h2>Objašnjenje 1</h2>
+         <br>
+         <p> Prvo ćemo deklarirati i inicijalizirati varijable:
+            <ul class="bullet">
+<li>KEY - gumbovi za upravljanje zmijom/igrom</li>
+<li>DIR - kretanje zmije</li>
+<li>stats - nova statistika</li>
+<li>canvas - povezivanje s html canvasom</li>
+<li>width - širina</li>
+<li>height - visina</li>
+<li>ctx - 2d prostor</li>
+<li>nx - broj stupaca</li>
+<li>ny - broj broj redaka</li>
+<li>playing - je li igra pokrenuta ili ne</li>
+<li>dstep - brzina zmije</li>
+<li>dt - koliko je sekunda proslo prije zadnjeg updatea</li> </ul></p>
+         </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          	<img src="slike/Vodiči/Lekcija1/lekcija1_slika1.jpg" alt="PLACEHOLDER" class="img-fluid">
+        </div>
+    </div>
+
+<div class="row padding oba-stupca">
+		<div class="col-sm-12 col-md-12 col-lg-6 slika-na-drugo">
+        <img src="slike/Vodiči/Lekcija1/lekcija1_slika2.jpg" alt="PLACEHOLDER" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 tekst-na-prvo">
+         <h2>Objašnjenje 2</h2>
+         <br>
+         <p>Sljedeći korak je napisati funkciju za crtanje i bojanje zmije, canvasa i hrane.
+Koristiti ćemo dodatnu funkciju za bojanje zmije u različitim nijansama zelene boje.</p>
+<img class="mb-5 ml-5 manja-zmija" src="slike/Vodiči/Lekcija1/Ikone/zmija1_icon.png" href="#" alt="botun"/>
+        </div>
+</div>
+
+<div class="row padding oba-stupca">
+		<div class="col-sm-12 col-md-12 col-lg-6">
+		 <h2>Objašnjenje 3</h2>
+         <br>
+         <p>Napisat ćemo funkciju za pokretanje igre u kojoj se vrši reset na početne stavke i funkciju za završetak igre.</p>
+         <img class="mb-5 ml-5 manja-ikona" src="slike/Vodiči/Lekcija1/Ikone/start_icon.png" href="#" alt="botun"/>
+         </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          	<img src="slike/Vodiči/Lekcija1/lekcija1_slika3.jpg" alt="PLACEHOLDER" class="img-fluid">
+        </div>
+
+
+
+    </div>
+<div class="row">
+  <div class="column button-sredina"><a href="lekcija1.html"><img id="menuImg4" src="slike/Vodiči/Lekcija1/Ikone/button_prethodno.png"  class="img-fluid" align="right" ></a></div>
+  <div class="column button-sredina"><a href="lekcija2.html"><img src="slike/Vodiči/Lekcija1/Ikone/button_sljedece.png" class="img-fluid"></a></div>
+  <div class="column button-sredina"><a href="lekcija4.html"><img id="menuImg4" src="slike/Vodiči/Lekcija1/Ikone/button_zadnji.png" class="img-fluidalign="left"></a></div>
+</div>
+</div>
+
+
+
+	<footer style="background-color:black;">
+	    <div class="">
+			<div class="row">
+					<nav class="navbar navbar-expand-md nestani col-lg-4 col-md-12">
+						<div class="container-fluid">
+								<ul class="nav navbar-nav mr-auto">
+									<li>
+										<a class="nav-link" href="tecajevi.html" >TEČAJEVI</a>
+									</li>
+									<li>
+										<a class="nav-link active" href="vodici.html">VODIČI<span class="sr-only">(current)</span></a>
+									</li>
+									<li>
+										<a class="nav-link" href="igra.html">IGRA</a>
+									</li>
+									<li>
+										<a class="nav-link" href="kontakt.html">KONTAKT</a>
+									</li>
+								</ul>
+						</div>
+					</nav>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 slikaf center">
+                </div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+                	<p style="text-align:center;">MHS Pro 2018. all rights reserved</p>
+                </div>
+			</div>
+		</div>
+</footer>
+
+
+
+<!-- METAFORE -->
+
+
+    <div class="social padding">
+         <a href="https://www.facebook.com/Consola-1803051286421557/"><i class="fab fa-facebook"></i></a>
+         <a href="https://www.instagram.com/consola.tecajevi/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/channel/UCXpfg7J4rPAqq1q4-jbEdoA"><i class="fab fa-youtube"></i></a>
+  </div>
+
+
+
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/skripta.js"></script>
+ <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>

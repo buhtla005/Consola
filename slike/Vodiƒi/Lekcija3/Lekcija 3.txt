@@ -1,0 +1,10 @@
+Slika 1:
+Sada æemo napisati funkcije push i pull koje funckioniraju poput povezanih listi. Push i pull æemo koristiti za pomicanje zmije po našem canvasu. Ako to ne ukljuèimo zmija æe nam stajati na mjestu. Pop funckija briše rep dok Push pomièe glavu naprijed ovisno o odabranom smjeru.
+Slika 2:
+Uz pomoæ funkcije increase definiramo i mjenjamo smjer zmije ovisno o odabranom smjeru(gore, dole, lijevo, desno). 
+Funkcija onkeydown koristi event listenere te ovisno o kliku strelice na tipkovnici naša zmija mjenja smjer.
+Space tipka se koristi za prekid, a ESC za zaustavljanje igre.
+Slika 3:
+Funckiju decrease koristimo za smanjivanje zmijena poèetnu velièinu.
+Funkcija move vrši kretanje u odabranom smjeru te blokira potpunu promjenu smjera.
+Move nam dozvoljava više koraka u jednom smjeru.

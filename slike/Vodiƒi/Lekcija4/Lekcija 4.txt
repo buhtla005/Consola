@@ -1,0 +1,8 @@
+Slika 1:
+U èetvrtoj lekciji æemo dodati ugranièenja u našu igru. Ovdje imamo prvu funkciju koja æe nam provjeravati lokaciju zmije te vraèati toènu poziciju
+Slika 2:
+Sljedeæa funkcija koja nam je potrebna æe provjeravati pa vraèati poziciju hrane i glave zmije.
+Slika 3:
+Funkciju snakeOccupies koristimo da provjerimo dali zmija dodiruje samu sebe. Primjer primjene ove funkcije: Ako glava zmije dotakne bilo koji segment zmije = gotova igra.
+Slika 4:
+Funkcija random generira vrijednosti sljedeæe hrane. Funkcija unoccupied izvršava funkciju random sve dok postoji hrana i dok zmija ne dodirne samu sebe. Do-while za razliku od while æe se izvršiti barem jednom! Zato prije nego li poène igra æemo veæ vidjeti zmiju i prvu lokaciju hrane.

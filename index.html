@@ -1,0 +1,274 @@
+﻿<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="slike/POČETNI/Ikone/numbering_icon_zel.png"/>
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/carousel_style.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+
+
+<title>Consola</title>
+</head>
+
+<body>
+
+
+
+<!-- NAVIGACIJA -->
+
+
+<nav class="navbar navbar-expand-md sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="index.html"></a>
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    	<span class="navbar-toggler-icon"></span>
+    	<i class="fa fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+    	<ul class="nav navbar-nav mr-auto">
+        	<li class="nav-item active">
+            	<a class="nav-link active" href="index.html">POČETNA<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="tecajevi.html" >TEČAJEVI</a>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="vodici.html">VODIČI</a>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="igra.html">IGRA</a>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="kontakt.html">KONTAKT</a>
+            </li>
+		</ul>
+       	<ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+				<a href="kosarica.html"><img src="slike/kosarica.png" alt="kosarica"></a>
+            </li>
+            <li class="nav-item desno-nav active">
+            	<a class="nav-link small active" href="#">HR</a>
+            </li>
+            <li class="nav-item desno-nav">
+            	<a class="nav-link small" href="#">EN</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</nav>
+
+
+<!-- BACKGROUND SLIKA -->
+
+
+<div>
+    <img class="slika-prva" src="slike/slika1.jpg" alt="yah" width="100%">
+</div>
+
+
+<!-- TEKST ISPOD SLIKE -->
+
+<div class="container-fluid padding dva-stupca"><h1>ODABERI TEČAJ</h1></div>
+<div class="tekst-centar">
+Pronađi se u struci game developera i izrađuj igrice koje si oduvijek volio igrati. Bez obzira na razinu
+znanja o programiranju i razvoju igrica
+imamo za tebe više kategorija od kojih će jedna zasigurno odgovarati tvojim potrebama
+</div>
+
+<div>
+	<img src="slike/separator.png" width="100%" alt="separator">
+</div>
+
+
+<!-- 3 STUPCA TEXAA -->
+
+
+<div class="container-fluid padding tri-reda">
+	<div class="row text-center padding align-items-center">
+    	<div class="col-sm-12 col-md-3  t-prvi mb-5 zoom">
+
+            <h3>Početni</h3>
+            <br>
+            <p>Tečaj ove kategorije je namjenjen početnicima koji su se tek počeli baviti razvojem JavaScript igara ili žele naučiti nešto novo.
+              Počinje se od početka te se stječe osnovno znanje potrebno za razvijanje igri.
+              Za više detalja stisni „play“ gumb!</p>
+            <div id="menu" class="play-button">
+            <a href="pocetnik.html"><img id="menuImg1" src="slike/button1.png" href="#" alt="botun" onMouseOver="onHover1();" onMouseOut="offHover1();"/></a>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3  t-drugi mb-5 zoom">
+          <h3>Napredni</h3>
+            <br>
+            <p>Tečaj ove kategorije namjenjen je svima koji već imaju početno znanje, a ne znaju kako bi nastavli dalje.
+Uz pomoć našeg tečaja će te naučiti kako primjeniti znanje koje imate na kreativan način te preći u naprednijeg game developera.
+Za više detalja stisni „play“ gumb!</p>
+            <div id="menu" class="play-button">
+            <a href="napredni.html"><img id="menuImg2" src="slike/button1.png" href="#" alt="botun" onMouseOver="onHover2();" onMouseOut="offHover2();"/></a>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3  t-treci mb-5 zoom">
+          <h3>Profi</h3>
+            <br>
+            <p>Ovaj tečaj je namjenjen već iskusnim JavaScript game developerima koji žele još dodatno unaprijediti svoje znanje te naučiti najnovije trendove razvoja JavaScript igara.
+Za više detalja stisni „play“ gumb!</p>
+            <div id="menu" class="play-button">
+            <a href="profi.html"><img id="menuImg3" src="slike/button1.png" href="#" alt="botun" onMouseOver="onHover3();" onMouseOut="offHover3();"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 2 STUPCA VODICA -->
+
+
+<div class="container-fluid padding dva-stupca">
+	<h1>UČITE OD NAJBOLJIH DEVELOPERA</h1>
+    <div>
+		<img src="slike/separator.png" width="100%" alt="separator">
+	</div>
+	<div class="row padding oba-stupca">
+		<div class="col-md-6 col-lg-6">
+		 <h2>Vodiči</h2>
+         <p> Osim naših tečajeva, u ponudi imamo besplatne vodiče od kojih se neki nalaze na stranici, a
+ostali se nalaze na Youtube kanalu "Consola vodiči". Na naš kanal se možete besplatno prijaviti i pratiti
+naše redovne sadržaje na temu izrade web igara i igara za konzole.
+Osim vodiča o game developingu, na Youtube kanalu naći ćete i korisne informacije o ostalim segmentima
+programiranja kao i 3D modeliranja.</p>
+            	<a href="vodici.html"><img id="menuImg4" src="slike/button1.png" href="#" alt="botun" onMouseOver="onHover4();" onMouseOut="offHover4();"/></a>
+         </div>
+        <div class="col-md-6 col-lg-6">
+          	<img src="slike/vodici_landing.jpg" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- SLIKA / GUMB NA IGRU -->
+
+
+<div class="slika-gumb">
+	<a href="#">
+    <img class="image1" src="slike/isprobaj_tekst.jpg" alt="slika-gumb" width="100%" href="igra.html">
+    <a href="igra.html"><img class="image2 pulse" src="slike/consola_pulse.png"></a>
+    </a>
+</div>
+
+
+<!-- KONTAKT -->
+
+
+<div class="container-fluid padding dva-stupca">
+	<div class="row padding oba-stupca">
+
+        <div class="col-sm-24 col-lg-8 google-maps">
+		<iframe class=".google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1402.5032799718829!2d14.467783161640702!3d45.32848999047588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shr!2shr!4v1527796014488" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+
+        <div class="col-sm-12 col-lg-4">
+          	<form id="contact-form" method="post" action="contact.php" role="form">
+
+    	<div class="messages"></div>
+
+   		<div class="controls">
+				<h2>Kontaktirajte nas</h2>
+                <div class="form-group">
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Ime *" required="required" data-error="Unesite ime.">
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Prezime *" required="required" data-error="Unesite prezime.">
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="E-pošta *" required="required" data-error="Unesite adresu E-pošte.">
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Br. telefona">
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Unesite poruku *" rows="4" required data-error="Zaboravili ste unijeti poruku."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+                <input type="image" src="slike/button2.png" value="Pošalji poruku" src="slike/button2.png" class="botun-na-dnu">
+
+            </div>
+        </div>
+    </div>
+
+</form>
+</div>
+
+
+<!-- FOOTER -->
+
+
+	<footer style="background-color:black;">
+			<div class="row">
+					<nav class="navbar navbar-expand-md nestani col-lg-4 col-md-12">
+						<div class="container-fluid">
+								<ul class="nav navbar-nav mr-auto">
+									<li>
+										<a class="nav-link active" href="tecajevi.html" >TEČAJEVI<span class="sr-only">(current)</span></a>
+									</li>
+									<li>
+										<a class="nav-link" href="vodici.html">VODIČI</a>
+									</li>
+									<li>
+										<a class="nav-link" href="igra.html">IGRA</a>
+									</li>
+									<li>
+										<a class="nav-link" href="kontakt.html">KONTAKT</a>
+									</li>
+								</ul>
+						</div>
+					</nav>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 slikaf center">
+                </div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+                	<p style="text-align:center;">MHS Pro 2018. all rights reserved</p>
+                </div>
+			</div>
+</footer>
+
+
+<!-- METAFORE -->
+
+
+    <div class="social padding">
+       	 <a href="https://www.facebook.com/Consola-1803051286421557/"><i class="fab fa-facebook"></i></a>
+         <a href="https://www.instagram.com/consola.tecajevi/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/channel/UCXpfg7J4rPAqq1q4-jbEdoA"><i class="fab fa-youtube"></i></a>
+	</div>
+
+
+
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/skripta.js"></script>
+ <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>

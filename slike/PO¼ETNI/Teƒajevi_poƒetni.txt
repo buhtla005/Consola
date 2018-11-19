@@ -1,0 +1,16 @@
+Opis:
+Na ovom teèaju æete nauèiti osnove kako koristiti JavaScript i HTML5 za izradu igara. Poèinje se od samog poèetka te se uèe kljuène osnove metode za izradu igara.
+
+Ishodi:
+Nauèiti æete postaviti svoju okolinu za razvoj igara u Microsoft Visual Studio
+Nauèiti æete inicijalizirati varijable
+Nauèiti æete kako stvoriti i podesiti mapu za vašu igru
+Nauèiti æete stvoriti vašeg lika
+Nauèiti æete kako povezati mapu i vašeg lika
+Nauèiti æete kako dodati ogranièenja
+Nauèiti æete kako dodati statistiku za vašeg lika i kako ju prikazati
+
+Certifikat:
+Da bi uspiješno završili teèaj morate imati rezultat veæi od 80%. Kod uspiješnog završetka teèaja dobiti æete certifikat "Consola Diploma" kao dokaz da ste završili naš teèaj. 
+
+

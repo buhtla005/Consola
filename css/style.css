@@ -1,0 +1,381 @@
+﻿	html,body
+	{
+	    width: 100%;
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	    overflow-x: hidden;
+	}
+
+
+nav{background-color: #000000;
+	font-family: 'Josefin Sans';
+	font-size: 12px;
+	font-weight: bold;}
+
+.nav-link{color:#757575;}
+.nav-link:hover{color:#22ff32;}
+.nav-link:active{color:#FFF;}
+
+.navbar-brand{
+	position: relative;
+	background: url(../slike/consola_nav.png);
+	width: 231px;
+	height: 55px;
+	background-size: contain;
+	margin-left: 40px;
+	background-repeat: no-repeat;
+}
+
+nav .navbar-nav{margin-left: 50px;}
+
+.nav-item {margin-right: 20px;}
+.nav-item .active{color:#22ff32;}
+
+footer .nav-item .active{color:#FFF;}
+footer .nav-link:hover{color:#FFF;}
+footer .nav-link{color:#757575;
+				font-size:10px;
+				text-align-last:end;
+				}
+
+nav img{height: 31px;
+		width: 31px;
+}
+.desno-nav{margin: auto;}
+
+.dropdown-menu{position: relative;}
+
+.fa-bars{color:#22ff32;}
+
+.tekst-centar{
+	font-family: "Josefin Sans";
+	font-size: 16px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.tri-reda{
+	margin-top: 40px;
+	text-align: center;
+}
+
+h3{
+	margin-top: 20px;
+	font-family: "Josefin Sans";
+	font-size: 24px;
+	font-weight: bold;
+}
+h2{
+	font-family:"Josefin Sans";
+	margin-left:10%;
+}
+
+p{
+	font-family:"Josefin Sans";
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#menuImg1,#menuImg2,#menuImg3,#menuImg4,#menuImg5,#menuImg6{
+	margin-left:10%;
+	margin-right:10%;
+	width: 50px;
+}
+
+#slika-lijevo{
+	margin-left:10%;
+	}
+
+.t-prvi, .t-drugi, .t-treci{
+	border: solid 5px #000;
+	text-align: center;
+	border-radius: 40px;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+.t-prvi, .t-drugi, .t-treci p{
+	font-family: "Josefin Sans";
+	font-size: 14px;
+}
+
+.t-prvi:hover, .t-drugi:hover, .t-treci:hover{
+	border: solid 5px #22ff32;
+	}
+
+.align-items-center{justify-content: center;}
+.play-button{text-align: left;}
+
+.dva-stupca{margin-top:100px;
+margin-bottom:30px;}
+
+h1{text-align:center;
+	}
+.dva-stupca h1{
+	font-size:24px;
+}
+
+.oba-stupca{margin-top:50px;}
+
+.slika-gumb{
+	position:relative;
+	margin-top:150px;
+}
+
+.image1 {
+  position: relative;
+  width:100%;
+}
+
+.image2 {
+	position:absolute;
+  	margin-left:auto;
+  	margin-right:auto;
+	left:25%;
+	top:40%;
+  	width:50%;
+}
+
+.image3 {
+	position:absolute;
+  	margin-left:auto;
+  	margin-right:auto;
+	left:40%;
+	top:63%;
+  	width:20%;
+}
+
+
+.botun-kontakt{background-color:#757575;}
+.botun-kontakt:hover{background-color:#22ff32;}
+
+.controls{width:70%;}
+
+
+input[type="text"], input[type="email"], input[type="tel"], #form_message {
+  background-color: #C3C3C3;
+}
+
+
+.form-control::-webkit-input-placeholder { color: #272727; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #272727; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #272727; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #272727; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #272727; }  /* Microsoft Edge */
+
+
+.google-maps {
+        position: relative;
+        padding-bottom: 20%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+}
+
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 60% !important;
+        min-height: 30% !important;
+		margin-left:10% !important;
+		margin-right:10% !important;
+}
+
+footer{ background-color: #000000;
+		color:#FFFFFF;
+		font-family: 'Josefin Sans';
+		font-size: 12px;
+	}
+
+footer p{ line-height: 55px;
+		  margin: 0px;
+		  padding: 0px;
+  		}
+
+footer img{
+	margin-top:10px;
+	width: 231px;
+	height: 55px;
+}
+
+
+
+.social{
+	position:fixed;
+	top:30%;
+	width: 5%;
+	left: 95%;
+
+}
+
+.social a{
+		 display: block;
+ 		 text-align: center;
+ 		 padding: 16px;
+  		 transition: all 0.3s ease;
+  		 color: white;
+  		 font-size: 50px;
+}
+
+
+
+.fa-facebook:hover{color: #3b5998;}
+.fa-instagram:hover{color:#cd486b;}
+.fa-youtube:hover{color:#ff0000;}
+
+.fa-facebook,
+.fa-instagram,
+.fa-youtube{color:#d5d5d5;}
+
+
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+.oba-stupca{margin-top: 10%;
+			margin-bottom: 10%;}
+.oba-stupca p{
+		font-size: 14px;
+	}
+
+#svi-tecajevi{
+	margin-bottom: 20px;
+}
+
+
+
+.bullet li{
+    list-style-image: url(../slike/PO%C4%8CETNI/Ikone/numbering_icon.png);
+	font-family: 'Josefin Sans';
+	font-size: 14px;
+	margin-bottom: 2%;
+
+}
+
+.slikaf{
+	position: relative;
+	background: url(../slike/Footer.png);
+	width: 231px;
+	height: 55px;
+	background-size: contain;
+	margin-left: 40px;
+	background-repeat: no-repeat;
+}
+
+
+.button-sredina{
+	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%;
+    width: 20%;
+	min-width:200px;
+	min-height:auto;}
+
+.button-strelica{
+  	margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%;
+    width: 20%;
+	min-width:200px;
+	min-height:auto;}
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.manja-ikona{
+	width: 50%;
+	height: 50%;
+}
+
+.manja-zmija{
+	width: 50%;
+}
+
+.manja{
+	width:30%;
+}
+
+.malamala{
+	width: 15%;
+}
+
+footer .nav-link .active{
+	color: white;
+}
+
+.botun-na-dnu{ width:50%;
+			   min-width:150px;}
+.info{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 991px){
+footer .nestani{display:none;}
+.slika-na-drugo{order:2;}
+.tekst-na-prvo{order:1;}
+.mala-ikona{display:none;}
+.manja-ikona{display:none;}
+.manja-zmija{display:none;}
+.manja{display:none;}
+.malamala{display:none;}
+.social{
+	display: none;
+}
+.social a{
+ 	display: none;
+}

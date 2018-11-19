@@ -1,0 +1,10 @@
+Slika 1.
+Sada æemo napisati funkciju koju æemo koristiti za reset igre na poèetno stanje.
+Reset vršimo uz pomoæ poziva sljedeæih funkcija:
+reset();
+
+frame();
+
+Slika 2.
+Funkciju update pozivamo unutar funkcije frame uz pomoæ koje osvježavamo ekran. Osvježenje ekrana se vrši u milisekundama zato imamo bolju responzivnost. Unutar funkcije update imamo funkciju snakeOccupies koja provjerava ako se zabijemo u zmiju, te funkciju foodOccupies koja provjerava ako smo pokupili hranu te stvara novu random generiranu lokaciju hrane i poveèava zmiju za 10 kockica.
+

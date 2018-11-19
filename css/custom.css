@@ -1,0 +1,7 @@
+.navbar-default .navbar-toggle {
+  border-color: transparent; /* Removes border color */
+  float: left; /* Move navbar toggle to left */
+}
+.navbar-default .navbar-toggle .navbar-toggler-icon {
+  background-color: #22ff32; /* Changes regular toggle color */
+}
