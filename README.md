@@ -1,8 +1,2 @@
 # Consola
-Consola Web page
-
-Kolegij: Multimedijski i hipermedijski sustavi
-
-Mentorica: Nataša Hoić-Božić
-
-Tim: Ivan Skender, Niko Konjuh, Marin Nefat, Vedran Šuštić
+Consola Web page je imaginarna stranica za razvoj i stjecanje znanja o game dev. Korišten Bootstrap, CSS i JS.
